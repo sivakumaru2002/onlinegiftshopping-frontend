@@ -31,7 +31,7 @@ function Navbar() {
         <nav className="navbar">
             <h1>Online gift Shopping</h1>
             <Search
-      placeholder="input search text"
+      placeholder="TYPE DOLL OR TOY"
       enterButton="Search"
       size="large"
       suffix={suffix}
