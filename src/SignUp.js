@@ -6,7 +6,7 @@ function SignUp(){
 
 	function handleSubmit(event) {
         event.preventDefault();
-        axios.post('https://onlinegiftshopping-backend.vercel.app/api/auth/signup', { email, password ,cpassword})
+        axios.post('https://alive-jade-crocodile.cyclic.app/api/auth/signup', { email, password ,cpassword})
             .then(res => {
                 console.log(res);
                 np(event);
