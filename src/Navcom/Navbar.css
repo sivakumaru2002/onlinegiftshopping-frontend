@@ -1,0 +1,27 @@
+.navbar {
+    background-color: rgb(110,94,254);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .navbar li {
+    margin: 0 1rem;
+  }
+  
+  .navbar h1 {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    color: #ddd;
+  }
