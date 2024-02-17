@@ -31,9 +31,10 @@ function Navbar() {
         <nav className="navbar">
             <h1>Online gift Shopping</h1>
             <Search
-      placeholder="TYPE DOLL OR TOY"
+      placeholder="TYPE DOLL,TOY,or MUG"
       enterButton="Search"
-      size="large"
+      size="medium"
+      style={{ width: 500 }}
       suffix={suffix}
       onChange={e => setOption(e.target.value)}
       onSearch={onSearch}

@@ -1,4 +1,6 @@
 import iron from './iron man.jpg';
+import mug1 from './mug1.jpg';
+
 export const tank=[{
     id:1,
     src:iron,
@@ -10,19 +12,19 @@ export const tank=[{
     src:iron,
     description:'doll',
     name:'DOLL',
-    price:200,
+    price:400,
   },{
     id:3,
     src:iron,
-    description:'doll',
-    name:'DOLL',
-    price:200,
+    description:'MUG',
+    name:'MUG',
+    price:1200,
   },{
     id:8,
     src:iron,
-    description:'doll',
-    name:'DOLL',
-    price:200,
+    description:'TOY',
+    name:'TOY',
+    price:2200,
   },{
     id:4,
     src:iron,
@@ -32,8 +34,8 @@ export const tank=[{
   },{
     id:5,
     src:iron,
-    description:'doll',
-    name:'DOll',
+    description:'MUG',
+    name:'MUG',
     price:200,
   },{
     id:6,

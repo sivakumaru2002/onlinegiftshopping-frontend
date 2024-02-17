@@ -18,7 +18,7 @@ function LandingPage() {
   function Text({ id, src, description, name, price }) {
     return (
       <>
-        <h2>Name: {name}</h2>
+        <h2>{name}</h2>
         <img src={src} alt={name} />
         <p>Detail: {description}</p>
         <p>Price: {price}</p>
@@ -31,7 +31,7 @@ function LandingPage() {
   function Tex({ id, src, description, name, price }) {
     return (
       <>
-        <h2>Name: {name}</h2>
+        <h2>{name}</h2>
         <img src={src} alt={name} />
         <p>Price: {price}</p>
       </>

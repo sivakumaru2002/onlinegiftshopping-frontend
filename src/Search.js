@@ -26,6 +26,7 @@ function Search() {
                 ) : (
                     <p>No matching products found</p>
                 )}
+                <button className='buy-button Body1 ' onClick={() => navigate('/LandingPage')}>RETURN HOME</button>
             </div>
         );
     }
