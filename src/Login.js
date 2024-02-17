@@ -12,7 +12,7 @@ function Login() {
 
     function handleSubmit(event) {
         event.preventDefault();
-        axios.post('http://localhost:8081/api/auth/login', { email, password })
+        axios.post('https://onlinegiftshopping-backend.vercel.app/api/auth/login', { email, password })
             .then(res => {
                 console.log(res);
                 handleBookNow(event);
