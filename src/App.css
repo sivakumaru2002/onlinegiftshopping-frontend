@@ -87,9 +87,17 @@
     background-color: #2980b9;
   }
 
+  .container {
+    text-align: center;
+}
+
+.content {
+    display: inline-block;
+}
+
   .back{
 	background-image: url('webback.jpg');
-    background-size: cover; /* Optional: Adjusts the size of the background image to cover the entire container */
+    background-size: cover; 
     background-position: center;
   }
 
