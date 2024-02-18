@@ -87,6 +87,12 @@
     background-color: #2980b9;
   }
 
+  .back{
+	background-image: url('webback.jpg');
+    background-size: cover; /* Optional: Adjusts the size of the background image to cover the entire container */
+    background-position: center;
+  }
+
   .inputb span::before {
 	content: attr(data-placeholder-1);
 	position: absolute;

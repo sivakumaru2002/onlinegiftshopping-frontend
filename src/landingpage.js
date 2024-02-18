@@ -18,8 +18,8 @@ function LandingPage() {
   function Text({ id, src, description, name, price }) {
     return (
       <>
-        <h2>{name}</h2>
         <img src={src} alt={name} />
+        <h2>{name}</h2>
         <p>Detail: {description}</p>
         <p>Price: {price}</p>
         <button className='button' onClick={()=>navigate('../Buys',{replace:true,state:{id:id}})}>(:BUY:)</button>
@@ -31,8 +31,8 @@ function LandingPage() {
   function Tex({ id, src, description, name, price }) {
     return (
       <>
-        <h2>{name}</h2>
         <img src={src} alt={name} />
+        <h2>{name}</h2>
         <p>Price: {price}</p>
       </>
     );
