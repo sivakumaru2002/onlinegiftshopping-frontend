@@ -12,6 +12,10 @@
     margin: 0;
     display: flex;
   }
+
+  div h1, div h3 {
+    display: inline-block;
+}
   
   .navbar li {
     margin: 0 1rem;
@@ -19,9 +23,14 @@
   
   .navbar h1 {
     color: #fff;
+    font-size: 40px;
     text-decoration: none;
   }
   
+  .navbar h3 {
+    color: #fff;
+    text-decoration: none;
+  }
   .navbar a:hover {
     color: #ddd;
   }

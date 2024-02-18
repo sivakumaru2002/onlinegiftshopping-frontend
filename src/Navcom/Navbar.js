@@ -29,7 +29,9 @@ function Navbar() {
 
     return (
         <nav className="navbar">
-            <h1>Online gift Shopping</h1>
+            <div>
+            <h3>Buy it </h3> <h1> Present it </h1> <h3>Enjoy it</h3>
+            </div>
             <Search
       placeholder="TYPE DOLL,TOY,or MUG"
       enterButton="Search"

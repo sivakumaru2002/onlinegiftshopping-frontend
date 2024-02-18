@@ -18,6 +18,7 @@ function LandingPage() {
   function Text({ id, src, description, name, price }) {
     return (
       <>
+        
         <img src={src} alt={name} />
         <h2>{name}</h2>
         <p>Detail: {description}</p>
